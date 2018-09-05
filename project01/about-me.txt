@@ -1,0 +1,18 @@
+Welcome to my website!
+
+My name is Hugo Trivino, I am originally from Patagonia Chile. When I finish highschool I could not 
+go to college right away because two of my siblings were already studying so I left my hometown at the age of 17
+to work about 2000 miles north of Patagonia to the Atacama desert, the driest place on the planet! I worked on different
+ service companies (Sodexo, Compass-Group) giving services to the workers at a huge mining project.
+
+I consider myself a deep learner passionate about prepare myself to confront hard problems with simple solutions.
+Computer engineering has taugh me how hardware makes possible programability from a bottom-up perspective
+, and so far my favorite programming language has been MC68k because I can understand more or less the
+process needed to perform an instruction. Once languages are lost in abstraction, it is far harder to keep
+up with the actual implementation of our programs and time complexity becomes really an issue.
+
+Since humans make problems easier to understand (or harder) by using abstractions, it is imperative to learn
+how to deal with it. For this reason I am complementing my engineering degree with a masters in Computer science. 
+I hope I can use my understanding of hardware to make abstract problems faster to compute. The facinating
+problems that I hope to learn from computer science are the ones found in datamining, social network analysis,
+machine learning, and artificial intelligence.
