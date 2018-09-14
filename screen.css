@@ -1,8 +1,7 @@
 #content {
-    background-color: #080808d3;
+    background-color: #080808;
 }  
 h1 {
-    
     font-family:"helvetica Neuw",Helvetica,Arial,  sans-serif;
     font-weight: normal;
     color:  #ff0022;
@@ -65,4 +64,10 @@ p {
     background-color: white;
     color:rgb(255, 255, 255);
     font-size: larger;
+}
+.debImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
