@@ -2,24 +2,24 @@
     background-color: #080808;
 }  
 h1 {
-    font-family:"helvetica Neuw",Helvetica,Arial,  sans-serif;
+    font-family: 'Lucida Console',"helvetica Neuw",Helvetica,Arial,  sans-serif;
     font-weight: normal;
-    color:  #ff0022;
+    color:  rgb(77, 77, 233);
     text-align: left;
     font-size: xx-large;
 }
 h2,h3,h4 , h5 h6 {
     margin-left: 1%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ff0000;
+    font-family: 'Lucida Console',Georgia, 'Times New Roman', Times, serif;
+    color: #f13d0f;
     text-align: left;
     font-size: x-large;
 }
 
 .mainHeader::before {
-    content: '>';
+    content: 'Hugo@Trivino:~$';
     font-size: x-large;
-    color:rgb(30, 177, 30);
+    color: green;
     font-weight: bolder;
 }
 .mainHeader::after {
@@ -50,12 +50,25 @@ h2,h3,h4 , h5 h6 {
   }
 
 p {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
     margin-left: 2%;
     -webkit-text-stroke: 0.5    px black;
-    font-size: large;
-    color:rgba(52, 236, 35, 0.842);
+    font-size: normal;
+    color:rgba(255, 255, 255, 0.863);
     hyphens: auto; 
     line-height: 1.8;
+}
+.user::before{
+    content: 'Hugo@Trivino';
+    font-size: large;
+    color: rgba(6, 192, 6, 0.747);
+    font-weight: bolder;
+}
+.user::after{
+    content: ':';
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
 }
 .paragraph::after{
     animation: blinker 1s linear infinite;
