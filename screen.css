@@ -6,7 +6,7 @@ h1 {
     font-weight: normal;
     color:  rgb(77, 77, 233);
     text-align: left;
-    font-size: xx-large;
+    font-size: x-large;
 }
 h2,h3,h4 , h5 h6 {
     margin-left: 1%;
@@ -14,13 +14,14 @@ h2,h3,h4 , h5 h6 {
     color: #f13d0f;
     text-align: left;
     font-size: x-large;
+    font-weight: normal;
 }
 
 .mainHeader::before {
-    content: 'Hugo@Trivino:~$';
+    content: 'hugo@trivino:~/$';
     font-size: x-large;
     color: green;
-    font-weight: bolder;
+    font-weight: normal;
 }
 .mainHeader::after {
     animation: blinker 1s linear infinite;
@@ -58,18 +59,7 @@ p {
     hyphens: auto; 
     line-height: 1.8;
 }
-.user::before{
-    content: 'Hugo@Trivino';
-    font-size: large;
-    color: rgba(6, 192, 6, 0.747);
-    font-weight: bolder;
-}
-.user::after{
-    content: ':';
-    font-size: x-large;
-    color: white;
-    font-weight: bolder;
-}
+
 .paragraph::after{
     animation: blinker 1s linear infinite;
     content: '#';
