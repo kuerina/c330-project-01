@@ -1,0 +1,53 @@
+#content {
+    background-color: #080808d3;
+    /* background-image: url("mtrxbkgrnd.png");*/
+}   /* red */
+h1 {
+    
+    font-family:"helvetica Neuw",Helvetica,Arial,  sans-serif;
+    font-weight: normal;
+    color:  #ff0022;
+    text-align: left;
+    font-size: xx-large;
+}
+h2,h3,h4 , h5 h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff0000;
+    text-align: left;
+    font-size: x-large;
+}
+.headers::before {
+    content: '>';
+    font-size: x-large;
+    color:rgb(30, 177, 30);
+    font-weight: bolder;
+
+}
+.headers::after {
+    animation: blinker 1s linear infinite;
+    content: '_';
+    font-weight: bolder ;
+    color:rgb(30, 177, 30);
+    font-size: larger;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+p {
+    -webkit-text-stroke: 0.5    px black;
+    font-size: large;
+    color:rgba(52, 236, 35, 0.842);
+    hyphens: auto; 
+    line-height: 1.8;
+}
+.paragraph::after{
+    animation: blinker 1s linear infinite;
+    content: '#';
+    font-weight: bolder ;
+    background-color: white;
+    color:rgb(255, 255, 255);
+    font-size: larger;
+}
