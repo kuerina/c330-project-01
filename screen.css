@@ -2,7 +2,8 @@
     background-color: #080808;
 }  
 h1 {
-    font-family: 'Lucida Console',"helvetica Neuw",Helvetica,Arial,  sans-serif;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    /* 'Lucida Console',"helvetica Neuw",Helvetica,Arial,  sans-serif;*/
     font-weight: normal;
     color:  rgb(77, 77, 233);
     text-align: left;
@@ -10,8 +11,8 @@ h1 {
 }
 h2,h3,h4 , h5 h6 {
     margin-left: 1%;
-    font-family: 'Lucida Console',Georgia, 'Times New Roman', Times, serif;
-    color: #f13d0f;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    color: #c03037;
     text-align: left;
     font-size: x-large;
     font-weight: normal;
@@ -27,7 +28,7 @@ h2,h3,h4 , h5 h6 {
 .headers::before {
     content: '>>';
     font-size: x-large;
-    color:rgb(30, 177, 30);
+    color:green;
     font-weight: bolder;
 
 }
@@ -35,7 +36,7 @@ h2,h3,h4 , h5 h6 {
     animation: blinker 1s linear infinite;
     content: '_';
     font-weight: bolder ;
-    color:rgb(30, 177, 30);
+    color:green;
     font-size: larger;
 }
 @keyframes blinker {
