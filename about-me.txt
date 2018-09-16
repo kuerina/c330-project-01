@@ -3,7 +3,7 @@ Welcome to my website!
 My name is Hugo Trivino, and I am a computer scientist and engineer from Chilean
 Patagonia. I joined the workforce at a young age and had to delay a college
 degree because my family could only afford to send my oldest two siblings to
-college. After I graduated high school at age 17, I left Patagonia and traveled
+college.  After I graduated high school at age 17, I left Patagonia and traveled
 some two thousand miles north to the Atacama desert, the driest place on the
 planet! For the next six years, I worked for different mining service companies
 including Sodexo, Compass-Group, and Esperanza, where I got my first taste of
@@ -25,4 +25,4 @@ and interact. That is why being a creative web designer is so important. With
 superior web design skills, I will be able to communicate ideas in the most
 flexible and personalized manner to people from all different backgrounds and
 experiences. In order to communicate with the world and have the greatest impact
-there is hardly a more powerful tool that web development.
+there is hardly a more powerful tool than web development.
